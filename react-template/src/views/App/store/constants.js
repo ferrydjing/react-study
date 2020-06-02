@@ -1,0 +1,7 @@
+export const INIT_CATE = 'app/INIT_CATE'
+export const ACTIVE_CHANGE = 'app/ACTIVE_CHANGE'
+export const SET_LIST = 'app/SET_LIST'
+export const UPDATE_DATASOURCE = 'app/UPDATE_DATASOURCE'
+export const SET_IS_LOADING = 'app/SET_IS_LOADING'
+export const SET_PAGE = 'app/SET_PAGE'
+export const SET_HAS_MORE = 'app/SET_HAS_MORE'
