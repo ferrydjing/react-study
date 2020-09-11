@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import { rem } from '../../utils'
-import couponImg from '../../assets/imgs/bg-goods-coupon.png'
+import { rem } from '@/utils'
+import couponImg from '@/assets/imgs/bg-goods-coupon.png'
 
 export const AppWrap = styled.section`
   margin: 0 auto 0;

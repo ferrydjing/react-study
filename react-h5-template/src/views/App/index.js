@@ -10,8 +10,8 @@ import {
   SpinWrap
 } from './style'
 import ListItem from './components/ListItem'
-import bannerImg from '../../assets/imgs/banner.jpg'
-import { rem } from '../../utils'
+import bannerImg from '@/assets/imgs/banner.jpg'
+import { rem } from '@/utils'
 import { actionCreaters } from './store'
 import { StickyContainer, Sticky } from 'react-sticky'
 
@@ -50,7 +50,7 @@ const App = (props) => {
             {hasMore ? (
               <>
                 <SpinWrap>
-                  <svg viewBox='25 25 50 50' class='van-loading__circular'>
+                  <svg viewBox='25 25 50 50' className='van-loading__circular'>
                     <circle cx='50' cy='50' r='20' fill='none'></circle>
                   </svg>
                 </SpinWrap>{' '}

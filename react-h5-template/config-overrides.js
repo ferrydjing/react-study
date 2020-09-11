@@ -1,11 +1,14 @@
-const { override, addWebpackAlias, fixBabelImports } = require('customize-cra')
+const { override, fixBabelImports, addWebpackAlias } = require('customize-cra')
 const path = require('path')
 const paths = require('react-scripts/config/paths')
 paths.appBuild = path.join(path.dirname(paths.appBuild), 'dist')
+function resolve(dir) {
+  return path.join(__dirname, '.', dir)
+}
 
-module.export = override(
+module.exports = override(
   addWebpackAlias({
-    '@': path.resolve(__dirname, 'src')
+    '@': resolve('src')
   }),
   fixBabelImports('import', {
     libraryName: 'antd-mobile',

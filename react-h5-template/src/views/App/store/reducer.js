@@ -1,7 +1,7 @@
 import { fromJS } from 'immutable'
 import * as constants from './constants'
 import { ListView } from 'antd-mobile'
-import { rem } from '../../../utils'
+import { rem } from '@/utils'
 
 const defaultState = fromJS({
   tabs: [],

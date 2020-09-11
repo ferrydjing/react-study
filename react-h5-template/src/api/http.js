@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { baseUrl } from '../common'
+import { baseUrl } from '@/common'
 import qs from 'qs'
 import { Toast } from 'antd-mobile'
 import sendParams from './sign'
