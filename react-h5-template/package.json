@@ -53,7 +53,7 @@
     "babel-plugin-import": "^1.13.0",
     "customize-cra": "^0.9.1",
     "dotenv-cli": "^3.1.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "react-app-rewired": "^2.1.6"
   }
 }
